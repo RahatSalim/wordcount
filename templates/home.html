@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rahat Salim</title>
+</head>
+<body>
+	<a href="{% url 'about' %}">Developer Info..</a>
+     <h1>Home Page....!!!</h1><br>
+     Welcome to my wordcount....<br>
+<form action="{% url 'count' %}">
+    <textarea name="Fulltextarea" cols="40" rows="10"></textarea><br>
+    <input type="submit" value="Count_word"/>
+</form>
+</body>
+</html>
